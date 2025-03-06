@@ -12,6 +12,7 @@ from homeassistant.util.dt import as_local, utcnow
 from .const import (
     ATTR_ELEMENT,
     ATTR_MODALITY,
+    ATTR_STONE,
     DEFAULT_NAME,
     DOMAIN,
     ELEMENT_AIR,
