@@ -3,7 +3,7 @@
   "name": "CalendarSigns",
   "codeowners": ["@MacMarc"],
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/zodiac",
+  "documentation": "https://www.home-assistant.io/integrations/calendarsigns",
   "iot_class": "calculated",
   "quality_scale": "silver"
 }
