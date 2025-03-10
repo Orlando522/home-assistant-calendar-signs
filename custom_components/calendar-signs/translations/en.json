@@ -1,1 +1,132 @@
-
+{
+  "title": "Calendar Signs",
+  "config": {
+    "step": {
+      "user": {
+        "description": "[%key:common::config_flow::description::confirm_setup%]"
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "[%key:common::config_flow::abort::single_instance_allowed%]"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "traditional_astrological_zodiac": {
+        "state": {
+          "aquarius": "Aquarius",
+          "aries": "Aries",
+          "cancer": "Cancer",
+          "capricorn": "Capricorn",
+          "gemini": "Gemini",
+          "leo": "Leo",
+          "libra": "Libra",
+          "pisces": "Pisces",
+          "sagittarius": "Sagittarius",
+          "scorpio": "Scorpio",
+          "taurus": "Taurus",
+          "virgo": "Virgo"
+        },
+	"state_attributes": {
+	  "element": {
+	    "state": {
+	      "air": "Air",
+	      "earth": "Earth",
+	      "fire": "Fire",
+	      "water": "Water"
+	    }
+	  },
+          "modality": {
+            "state": {
+              "cardinal": "Cardinal",
+              "fixed": "Fixed",
+              "mutable": "Mutable"
+            }
+          }
+        }
+      },
+      "japan_zen_signs": {
+        "state": {
+          "turtle": "Turtle",
+          "cherry": "Cherry Blossom",
+          "sun": "Sun",
+          "bamboo": "Bamboo",
+          "buffalo": "Rice Paddy",
+          "lotus": "Lotus",
+          "bridge": "Bridge",
+          "pebble": "Garden",
+          "caesar": "Emperror",
+          "empress": "Empress",
+          "moon": "Moon"
+        }
+      },
+      "native_american_signs": {
+        "state": {
+          "falcon": "Falcon",
+          "beaver": "Beaver",
+          "deer": "Deer",
+          "woodpecker": "Woodpecker",
+          "salmon": "Salmon",
+          "bear": "Bear",
+          "raven": "Raven",
+          "snake": "Snake",
+          "owl": "Owl",
+          "goose": "Goose",
+          "otter": "Otter",
+          "wolf": "Wolf"
+        },
+        "state_attributes": {
+          "stone": {
+            "state": {
+              "opal": "Opal",
+              "jasper": "Jasper",
+              "agate": "Agate",
+              "rosequartz": "Rose Quartz",
+	      "carnelian": "Carnelian",
+	      "amethyst": "Amethyst",
+	      "azurite": "Azurite",
+	      "copper": "Copper",
+	      "obsidian": "Obsidian",
+	      "quartz": "Quartz",
+	      "turquoise": "Turquoise",
+	      "jade": "Jade"
+            }
+          }
+        }
+      },
+      "egyptian_signs": {
+        "state": {
+          "nile": "Nile",
+          "amunra": "Amun-Ra",
+          "mut": "Mut",
+          "geb": "Geb",
+          "osiris": "Osiris",
+          "isis": "Isis",
+          "thoth": "Thoth",
+          "horus": "Horus",
+          "anubis": "Anubis",
+          "seth": "Seth",
+          "bastet": "Bastet",
+          "sekhmet": "Sekhmet"
+        }
+      },
+      "celtic_signs": {
+        "state": {
+          "rowan": "Rowan",
+          "ash": "Ash",
+          "alder": "Alder",
+          "willow": "Willow",
+          "hawthorn": "Hawthorn",
+          "oak": "Oak",
+          "holly": "Holly",
+          "hazel": "Hazel",
+          "vine": "Vine",
+          "ivy": "Ivy",
+          "reed": "Reed",
+          "elder": "Elder",
+          "birch": "Birch"
+        }
+      }
+    }
+  }
+}
