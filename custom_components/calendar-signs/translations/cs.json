@@ -39,8 +39,8 @@
           "modality": {
             "state": {
               "cardinal": "Základní",
-              "fixed": "Pevný",
-              "mutable": "Pohyblivý"
+              "fixed": "Pevná",
+              "mutable": "Pohyblivá"
             }
           }
         }
