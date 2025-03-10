@@ -601,20 +601,6 @@ class TraditionalAstrologicalZodiacSensor(SensorEntity):
 
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
-    _attr_options = [
-        SIGN_TA_AQUARIUS,
-        SIGN_TA_ARIES,
-        SIGN_TA_CANCER,
-        SIGN_TA_CAPRICORN,
-        SIGN_TA_GEMINI,
-        SIGN_TA_LEO,
-        SIGN_TA_LIBRA,
-        SIGN_TA_PISCES,
-        SIGN_TA_SAGITTARIUS,
-        SIGN_TA_SCORPIO,
-        SIGN_TA_TAURUS,
-        SIGN_TA_VIRGO,
-    ]
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -626,6 +612,20 @@ class TraditionalAstrologicalZodiacSensor(SensorEntity):
         self._attr_unique_id = "traditional_astrological_zodiac"
         self._attr_name = TA_NAME
         self._attr_translation_key = "traditional_astrological_zodiac"
+        self._attr_options = [
+            SIGN_TA_AQUARIUS,
+            SIGN_TA_ARIES,
+            SIGN_TA_CANCER,
+            SIGN_TA_CAPRICORN,
+            SIGN_TA_GEMINI,
+            SIGN_TA_LEO,
+            SIGN_TA_LIBRA,
+            SIGN_TA_PISCES,
+            SIGN_TA_SAGITTARIUS,
+            SIGN_TA_SCORPIO,
+            SIGN_TA_TAURUS,
+            SIGN_TA_VIRGO,
+        ]
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -644,19 +644,6 @@ class JapanZenSignsSensor(SensorEntity):
 
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
-    _attr_options = [
-        SIGN_JZ_TURTLE,
-        SIGN_JZ_CHERRY,
-        SIGN_JZ_SUN,
-        SIGN_JZ_BAMBOO,
-        SIGN_JZ_BUFFALO,
-        SIGN_JZ_LOTUS,
-        SIGN_JZ_BRIDGE,
-        SIGN_JZ_PEBBLE,
-        SIGN_JZ_CAESAR,
-        SIGN_JZ_EMPRESS,
-        SIGN_JZ_MOON,
-    ]
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -668,6 +655,19 @@ class JapanZenSignsSensor(SensorEntity):
         self._attr_unique_id = "japan_zen_signs"
         self._attr_name = JZ_NAME
         self._attr_translation_key = "japan_zen_signs"
+        self._attr_options = [
+            SIGN_JZ_TURTLE,
+            SIGN_JZ_CHERRY,
+            SIGN_JZ_SUN,
+            SIGN_JZ_BAMBOO,
+            SIGN_JZ_BUFFALO,
+            SIGN_JZ_LOTUS,
+            SIGN_JZ_BRIDGE,
+            SIGN_JZ_PEBBLE,
+            SIGN_JZ_CAESAR,
+            SIGN_JZ_EMPRESS,
+            SIGN_JZ_MOON,
+        ]
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -685,20 +685,6 @@ class NativeAmericanSignsSensor(SensorEntity):
 
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
-    _attr_options = [
-        SIGN_NA_FALCON,
-        SIGN_NA_BEAVER,
-        SIGN_NA_DEER,
-        SIGN_NA_WOODPECKER,
-        SIGN_NA_SALMON,
-        SIGN_NA_BEAR,
-        SIGN_NA_RAVEN,
-        SIGN_NA_SNAKE,
-        SIGN_NA_OWL,
-        SIGN_NA_GOOSE,
-        SIGN_NA_OTTER,
-        SIGN_NA_WOLF,
-    ]
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -710,6 +696,20 @@ class NativeAmericanSignsSensor(SensorEntity):
         self._attr_unique_id = "native_american_signs"
         self._attr_name = NA_NAME
         self._attr_translation_key = "native_american_signs"
+        self._attr_options = [
+            SIGN_NA_FALCON,
+            SIGN_NA_BEAVER,
+            SIGN_NA_DEER,
+            SIGN_NA_WOODPECKER,
+            SIGN_NA_SALMON,
+            SIGN_NA_BEAR,
+            SIGN_NA_RAVEN,
+            SIGN_NA_SNAKE,
+            SIGN_NA_OWL,
+            SIGN_NA_GOOSE,
+            SIGN_NA_OTTER,
+            SIGN_NA_WOLF,
+        ]
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -728,20 +728,6 @@ class EgyptianSignsSensor(SensorEntity):
 
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
-    _attr_options = [
-        SIGN_E_NILE,
-        SIGN_E_AMUNRA,
-        SIGN_E_MUT,
-        SIGN_E_GEB,
-        SIGN_E_OSIRIS,
-        SIGN_E_ISIS,
-        SIGN_E_THOTH,
-        SIGN_E_HORUS,
-        SIGN_E_ANUBIS,
-        SIGN_E_SETH,
-        SIGN_E_BASTET,
-        SIGN_E_SEKHMET,
-    ]
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -753,6 +739,20 @@ class EgyptianSignsSensor(SensorEntity):
         self._attr_unique_id = "egyptian_signs"
         self._attr_name = E_NAME
         self._attr_translation_key = "egyptian_signs"
+        self._attr_options = [
+            SIGN_E_NILE,
+            SIGN_E_AMUNRA,
+            SIGN_E_MUT,
+            SIGN_E_GEB,
+            SIGN_E_OSIRIS,
+            SIGN_E_ISIS,
+            SIGN_E_THOTH,
+            SIGN_E_HORUS,
+            SIGN_E_ANUBIS,
+            SIGN_E_SETH,
+            SIGN_E_BASTET,
+            SIGN_E_SEKHMET,
+        ]
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -770,21 +770,6 @@ class CelticSignsSensor(SensorEntity):
 
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
-    _attr_options = [
-        SIGN_C_ROWAN,
-        SIGN_C_ASH,
-        SIGN_C_ALDER,
-        SIGN_C_WILLOW,
-        SIGN_C_HAWTHORN,
-        SIGN_C_OAK,
-        SIGN_C_HOLLY,
-        SIGN_C_HAZEL,
-        SIGN_C_VINE,
-        SIGN_C_IVY,
-        SIGN_C_REED,
-        SIGN_C_ELDER,
-        SIGN_C_BIRCH,
-    ]
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -796,6 +781,21 @@ class CelticSignsSensor(SensorEntity):
         self._attr_unique_id = "celtic_signs"
         self._attr_name = C_NAME
         self._attr_translation_key = "celtic_signs"
+        self._attr_options = [
+            SIGN_C_ROWAN,
+            SIGN_C_ASH,
+            SIGN_C_ALDER,
+            SIGN_C_WILLOW,
+            SIGN_C_HAWTHORN,
+            SIGN_C_OAK,
+            SIGN_C_HOLLY,
+            SIGN_C_HAZEL,
+            SIGN_C_VINE,
+            SIGN_C_IVY,
+            SIGN_C_REED,
+            SIGN_C_ELDER,
+            SIGN_C_BIRCH,
+        ]
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
