@@ -595,7 +595,7 @@ async def async_setup_entry(
     async_add_entities([EgyptianSignsSensor(entry_id=entry.entry_id)], True)
     async_add_entities([CelticSignsSensor(entry_id=entry.entry_id)], True)
     """async_add_entities([ChineseSignsSensor(entry_id=entry.entry_id)], True)"""
-
+    
 class TraditionalAstrologicalZodiacSensor(SensorEntity):
     """Representation of a Traditional Astrological Zodiac sensor."""
 
