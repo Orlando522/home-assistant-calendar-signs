@@ -1,7 +1,7 @@
 {
   "entity": {
     "sensor": {
-      "traditionalastrologicalsign": {
+      "traditional_astrological_zodiac": {
         "default": "mdi:zodiac-aries",
         "state": {
           "taurus": "mdi:zodiac-taurus",
@@ -34,7 +34,7 @@
           }
         }
       },
-      "japanzensign": {
+      "japan_zen_sign": {
         "default": "mdi:tortoise",
         "state": {
           "turtle": "mdi:tortoise",
@@ -50,7 +50,7 @@
           "moon": "mdi:moon-waning-crescent"
         }
       },
-      "nativeamericansign": {
+      "native_american_sign": {
         "default": "mdi:falcon",
         "state": {
           "falcon": "mdi:falcon",
@@ -85,7 +85,7 @@
           }
         }
       },
-      "egyptiansign": {
+      "egyptian_sign": {
         "default": "mdi:nile",
         "state": {
           "nile": "mdi:nile",
@@ -102,7 +102,7 @@
           "sekhmet": "mdi:sekhmet"
         }
       },
-      "celticsign": {
+      "celtic_sign": {
         "default": "mdi:rowan",
         "state": {
           "rowan": "mdi:rowan",
