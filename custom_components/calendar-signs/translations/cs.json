@@ -1,1 +1,132 @@
-
+{
+  "title": "Kalendářní znamení",
+  "config": {
+    "step": {
+      "user": {
+        "description": "[%key:common::config_flow::description::confirm_setup%]"
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "[%key:common::config_flow::abort::single_instance_allowed%]"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "traditional_astrological_zodiac": {
+        "state": {
+          "aquarius": "Vodnář",
+          "aries": "Beran",
+          "cancer": "Rak",
+          "capricorn": "Kozoroh",
+          "gemini": "Blíženci",
+          "leo": "Lev",
+          "libra": "Váhy",
+          "pisces": "Ryby",
+          "sagittarius": "Střelec",
+          "scorpio": "Štír",
+          "taurus": "Býk",
+          "virgo": "Panna"
+        },
+	"state_attributes": {
+	  "element": {
+	    "state": {
+	      "air": "Vyduch",
+	      "earth": "Země",
+	      "fire": "Oheň",
+	      "water": "Voda"
+	    }
+	  },
+          "modality": {
+            "state": {
+              "cardinal": "Základní",
+              "fixed": "Pevný",
+              "mutable": "Pohyblivý"
+            }
+          }
+        }
+      },
+      "japan_zen_signs": {
+        "state": {
+          "turtle": "Želva",
+          "cherry": "Třešeň",
+          "sun": "Slunce",
+          "bamboo": "Bambus",
+          "buffalo": "Buvol",
+          "lotus": "Lotos",
+          "bridge": "Most",
+          "pebble": "Oblázek",
+          "caesar": "Císař",
+          "empress": "Císařovna",
+          "moon": "Měsíc"
+        }
+      },
+      "native_american_signs": {
+        "state": {
+          "falcon": "Sokol",
+          "beaver": "Bobr",
+          "deer": "Jelen",
+          "woodpecker": "Datel",
+          "salmon": "Losos",
+          "bear": "Medvěd",
+          "raven": "Havran",
+          "snake": "Had",
+          "owl": "Sova",
+          "goose": "Husa",
+          "otter": "Vydra",
+          "wolf": "Vlk"
+        },
+        "state_attributes": {
+          "stone": {
+             "state": {
+              "opal": "Opál",
+              "jasper": "Jaspis",
+              "agate": "Achát",
+              "rosequartz": "Růžový křemen",
+              "carnelian": "Karneol",
+              "amethyst": "Ametyst",
+              "azurite": "Azurit",
+              "copper": "Měď",
+              "obsidian": "Obsidián",
+              "quartz": "Křemen",
+              "turquoise": "Tyrkys",
+              "jade": "Nefrit"
+            }
+          }
+        }
+      },
+      "egyptian_signs": {
+        "state": {
+          "nile": "Nil",
+          "amunra": "Amun-Ra",
+          "mut": "Mut",
+          "geb": "Geb",
+          "osiris": "Osiris",
+          "isis": "Isis",
+          "thoth": "Thoth",
+          "horus": "Hor",
+          "anubis": "Anubis",
+          "seth": "Seth",
+          "bastet": "Bastet",
+          "sekhmet": "Sekhmet"
+        }
+      },
+      "celtic_signs": {
+        "state": {
+          "rowan": "Jeřáb",
+          "ash": "Jasan",
+          "alder": "Olše",
+          "willow": "Vrba",
+          "hawthorn": "Hloh",
+          "oak": "Dub",
+          "holly": "Cesmína",
+          "hazel": "Líska",
+          "vine": "Réva",
+          "ivy": "Břečťan",
+          "reed": "Rákos",
+          "elder": "Černý bez",
+          "birch": "Bříza"
+        }
+      }
+    }
+  }
+}
