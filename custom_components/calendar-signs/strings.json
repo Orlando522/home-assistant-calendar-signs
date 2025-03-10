@@ -26,33 +26,25 @@
           "scorpio": "Scorpio",
           "taurus": "Taurus",
           "virgo": "Virgo"
-        }
-      }
-    }
-  }
-  "entity": {
-    "traditionalastrologicalsign": {
-      "state_attributes": {
-        "element": {
-          "state": {
-            "air": "Air",
-            "earth": "Earth",
-            "fire": "Fire",
-            "water": "Water"
-          }
         },
-        "modality": {
-          "state": {
-            "cardinal": "Cardinal",
-            "fixed": "Fixed",
-            "mutable": "Mutable"
+	"state_attributes": {
+	  "element": {
+	    "state": {
+	      "air": "Air",
+	      "earth": "Earth",
+	      "fire": "Fire",
+	      "water": "Water"
+	    }
+	  },
+          "modality": {
+            "state": {
+              "cardinal": "Cardinal",
+              "fixed": "Fixed",
+              "mutable": "Mutable"
+            }
           }
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "japanzensign": {
         "state": {
           "turtle": "Turtle",
@@ -67,11 +59,7 @@
           "empress": "Empress",
           "moon": "Moon"
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "nativeamericansign": {
         "state": {
           "falcon": "Falcon",
@@ -86,34 +74,26 @@
           "goose": "Goose",
           "otter": "Otter",
           "wolf": "Wolf"
-        }
-      }
-    }
-  }
-  "entity": {
-    "nativeamericansign": {
-      "state_attributes": {
-        "stone": {
-          "state": {
-            "opal": "Opal",
-            "jasper": "Jasper",
-            "agate": "Agate",
-            "rosequartz": "Rose Quartz",
-			"carnelian": "Carnelian",
-			"amethyst": "Amethyst",
-			"azurite": "Azurite",
-			"copper": "Copper",
-			"obsidian": "Obsidian",
-			"quartz": "Quartz",
-			"turquoise": "Turquoise",
-			"jade": "Jade"
+        },
+        "state_attributes": {
+          "stone": {
+            "state": {
+              "opal": "Opal",
+              "jasper": "Jasper",
+              "agate": "Agate",
+              "rosequartz": "Rose Quartz",
+	      "carnelian": "Carnelian",
+	      "amethyst": "Amethyst",
+	      "azurite": "Azurite",
+	      "copper": "Copper",
+	      "obsidian": "Obsidian",
+	      "quartz": "Quartz",
+	      "turquoise": "Turquoise",
+	      "jade": "Jade"
+            }
           }
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "egyptiansign": {
         "state": {
           "nile": "Nile",
@@ -127,13 +107,9 @@
           "anubis": "Anubis",
           "seth": "Seth",
           "bastet": "Bastet",
-		  "sekhmet": "Sekhmet"
+          "sekhmet": "Sekhmet"
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "celticsign": {
         "state": {
           "rowan": "Rowan",
@@ -147,8 +123,8 @@
           "vine": "Vine",
           "ivy": "Ivy",
           "reed": "Reed",
-		  "elder": "Elder",
-		  "birch": "Birch"
+          "elder": "Elder",
+          "birch": "Birch"
         }
       }
     }
