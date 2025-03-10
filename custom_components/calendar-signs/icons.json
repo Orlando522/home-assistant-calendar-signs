@@ -16,32 +16,24 @@
           "aquarius": "mdi:zodiac-aquarius",
           "pisces": "mdi:zodiac-pisces"
         }
-      }
-    }
-  }
-  "entity": {
-    "traditionalastrologicalsign": {
-      "state_attributes": {
-        "element": {
-          "state": {
-            "air": "mdi:alpha-a",
-            "earth": "mdi:alpha-e",
-            "fire": "mdi:alpha-f",
-            "water": "mdi:alpha-w"
-          }
-        },
-        "modality": {
-          "state": {
-            "cardinal": "mdi:alpha-c",
-            "fixed": "mdi:alpha-f",
-            "mutable": "mdi:alpha-m"
+        "state_attributes": {
+          "element": {
+            "state": {
+              "air": "mdi:alpha-a",
+              "earth": "mdi:alpha-e",
+              "fire": "mdi:alpha-f",
+              "water": "mdi:alpha-w"
+            }
+          },
+          "modality": {
+            "state": {
+              "cardinal": "mdi:alpha-c",
+              "fixed": "mdi:alpha-f",
+              "mutable": "mdi:alpha-m"
+            }
           }
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "japanzensign": {
         "default": "mdi:tortoise",
         "state": {
@@ -57,11 +49,7 @@
           "empress": "mdi:alpha-e",
           "moon": "mdi:moon-waning-crescent"
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "nativeamericansign": {
         "default": "mdi:falcon",
         "state": {
@@ -76,35 +64,27 @@
           "owl": "mdi:owl",
           "goose": "mdi:goose",
           "otter": "mdi:otter",
-		  "wolf": "mdi:wolf"
-        }
-      }
-    }
-  }
-  "entity": {
-    "nativeamericansign": {
-      "state_attributes": {
-        "stone": {
-          "state": {
-            "opal": "mdi:opal",
-            "jasper": "mdi:jasper",
-            "agate": "mdi:agate",
-            "rosequartz": "mdi:rosequartz",
-			"carnelian": "mdi:carnelian",
-			"amethyst": "mdi:amethyst",
-			"azurite": "mdi:azurite",
-			"copper": "mdi:copper",
-			"obsidian": "mdi:obsidian",
-			"quartz": "mdi:quartz",
-			"turquoise": "mdi:turquoise",
-			"jade": "mdi:jade"
+          "wolf": "mdi:wolf"
+        },
+        "state_attributes": {
+          "stone": {
+            "state": {
+              "opal": "mdi:opal",
+              "jasper": "mdi:jasper",
+              "agate": "mdi:agate",
+              "rosequartz": "mdi:rosequartz",
+              "carnelian": "mdi:carnelian",
+              "amethyst": "mdi:amethyst",
+              "azurite": "mdi:azurite",
+              "copper": "mdi:copper",
+              "obsidian": "mdi:obsidian",
+              "quartz": "mdi:quartz",
+              "turquoise": "mdi:turquoise",
+              "jade": "mdi:jade"
+            }
           }
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "egyptiansign": {
         "default": "mdi:nile",
         "state": {
@@ -119,13 +99,9 @@
           "anubis": "mdi:anubis",
           "seth": "mdi:seth",
           "bastet": "mdi:bastet",
-		  "sekhmet": "mdi:sekhmet"
+          "sekhmet": "mdi:sekhmet"
         }
-      }
-    }
-  }
-  "entity": {
-    "sensor": {
+      },
       "celticsign": {
         "default": "mdi:rowan",
         "state": {
@@ -140,8 +116,8 @@
           "vine": "mdi:vine",
           "ivy": "mdi:ivy",
           "reed": "mdi:reed",
-		  "elder": "mdi:elder",
-		  "birch": "mdi:birch"
+          "elder": "mdi:elder",
+          "birch": "mdi:birch"
         }
       }
     }
