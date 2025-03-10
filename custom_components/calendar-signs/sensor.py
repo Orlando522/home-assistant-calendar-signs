@@ -622,7 +622,7 @@ class TraditionalAstrologicalZodiacSensor(SensorEntity):
     def __init__(self, entry_id: str) -> None:
         """Initialize Traditional Astrological Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=DEFAULT_NAME,
+            name=TA_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -664,7 +664,7 @@ class JapanZenSignsSensor(SensorEntity):
     def __init__(self, entry_id: str) -> None:
         """Initialize Japan Zen Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=DEFAULT_NAME,
+            name=JZ_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -706,7 +706,7 @@ class NativeAmericanSignsSensor(SensorEntity):
     def __init__(self, entry_id: str) -> None:
         """Initialize Native American Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=DEFAULT_NAME,
+            name=NA_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -749,7 +749,7 @@ class EgyptianSignsSensor(SensorEntity):
     def __init__(self, entry_id: str) -> None:
         """Initialize Egyptian Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=DEFAULT_NAME,
+            name=E_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -792,7 +792,7 @@ class CelticSignsSensor(SensorEntity):
     def __init__(self, entry_id: str) -> None:
         """Initialize Celtic Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=DEFAULT_NAME,
+            name=C_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
