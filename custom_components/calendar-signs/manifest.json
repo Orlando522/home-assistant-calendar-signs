@@ -1,9 +1,8 @@
 {
   "domain": "calendarsigns",
   "name": "CalendarSigns",
-  "codeowners": ["@MacMarc"],
+  "codeowners": ["@Orlando522"],
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/calendarsigns",
   "iot_class": "calculated",
   "quality_scale": "bronze"
 }
