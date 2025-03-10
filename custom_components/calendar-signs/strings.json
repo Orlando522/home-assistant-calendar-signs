@@ -12,7 +12,7 @@
   },
   "entity": {
     "sensor": {
-      "traditional_astrological_zodiac": {
+      "calendar_signs_traditional_astrological_zodiac": {
         "state": {
           "aquarius": "Aquarius",
           "aries": "Aries",
@@ -45,7 +45,7 @@
           }
         }
       },
-      "japan_zen_sign": {
+      "calendar_signs_japan_zen_signs": {
         "state": {
           "turtle": "Turtle",
           "cherry": "Cherry Blossom",
@@ -60,7 +60,7 @@
           "moon": "Moon"
         }
       },
-      "native_american_sign": {
+      "calendar_signs_native_american_signs": {
         "state": {
           "falcon": "Falcon",
           "beaver": "Beaver",
@@ -94,7 +94,7 @@
           }
         }
       },
-      "egyptian_sign": {
+      "calendar_signs_egyptian_signs": {
         "state": {
           "nile": "Nile",
           "amunra": "Amun-Ra",
@@ -110,7 +110,7 @@
           "sekhmet": "Sekhmet"
         }
       },
-      "celtic_sign": {
+      "calendar_signs_celtic_signs": {
         "state": {
           "rowan": "Rowan",
           "ash": "Ash",
