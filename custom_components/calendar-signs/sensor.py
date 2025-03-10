@@ -599,7 +599,7 @@ async def async_setup_entry(
 class TraditionalAstrologicalZodiacSensor(SensorEntity):
     """Representation of a Traditional Astrological Zodiac sensor."""
 
-    _attr_name = None
+    _attr_name = TA_NAME
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
     _attr_options = [
@@ -617,12 +617,12 @@ class TraditionalAstrologicalZodiacSensor(SensorEntity):
         SIGN_TA_VIRGO,
     ]
     _attr_translation_key = "sign"
-    _attr_unique_id = DOMAIN
+    _attr_unique_id = "traditional_astrological_zodiac"
 
     def __init__(self, entry_id: str) -> None:
         """Initialize Traditional Astrological Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=TA_NAME,
+            name=DEFAULT_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -642,7 +642,7 @@ class TraditionalAstrologicalZodiacSensor(SensorEntity):
 class JapanZenSignsSensor(SensorEntity):
     """Representation of a Japan Zen Signs sensor."""
 
-    _attr_name = None
+    _attr_name = JZ_NAME
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
     _attr_options = [
@@ -659,12 +659,12 @@ class JapanZenSignsSensor(SensorEntity):
         SIGN_JZ_MOON,
     ]
     _attr_translation_key = "sign"
-    _attr_unique_id = DOMAIN
+    _attr_unique_id = "japan_zen_signs"
 
     def __init__(self, entry_id: str) -> None:
         """Initialize Japan Zen Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=JZ_NAME,
+            name=DEFAULT_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -683,7 +683,7 @@ class JapanZenSignsSensor(SensorEntity):
 class NativeAmericanSignsSensor(SensorEntity):
     """Representation of a Native American Signs sensor."""
 
-    _attr_name = None
+    _attr_name = NA_NAME
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
     _attr_options = [
@@ -701,12 +701,12 @@ class NativeAmericanSignsSensor(SensorEntity):
         SIGN_NA_WOLF,
     ]
     _attr_translation_key = "sign"
-    _attr_unique_id = DOMAIN
+    _attr_unique_id = "native_american_signs"
 
     def __init__(self, entry_id: str) -> None:
         """Initialize Native American Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=NA_NAME,
+            name=DEFAULT_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -726,7 +726,7 @@ class NativeAmericanSignsSensor(SensorEntity):
 class EgyptianSignsSensor(SensorEntity):
     """Representation of a Egyptian Signs sensor."""
 
-    _attr_name = None
+    _attr_name = E_NAME
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
     _attr_options = [
@@ -744,12 +744,12 @@ class EgyptianSignsSensor(SensorEntity):
         SIGN_E_SEKHMET,
     ]
     _attr_translation_key = "sign"
-    _attr_unique_id = DOMAIN
+    _attr_unique_id = "egyptian_signs"
 
     def __init__(self, entry_id: str) -> None:
         """Initialize Egyptian Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=E_NAME,
+            name=DEFAULT_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
@@ -768,7 +768,7 @@ class EgyptianSignsSensor(SensorEntity):
 class CelticSignsSensor(SensorEntity):
     """Representation of a Celtic Signs sensor."""
 
-    _attr_name = None
+    _attr_name = C_NAME
     _attr_has_entity_name = True
     _attr_device_class = SensorDeviceClass.ENUM
     _attr_options = [
@@ -787,12 +787,12 @@ class CelticSignsSensor(SensorEntity):
         SIGN_C_BIRCH,
     ]
     _attr_translation_key = "sign"
-    _attr_unique_id = DOMAIN
+    _attr_unique_id = "celtic_signs"
 
     def __init__(self, entry_id: str) -> None:
         """Initialize Celtic Signs sensor."""
         self._attr_device_info = DeviceInfo(
-            name=C_NAME,
+            name=DEFAULT_NAME,
             identifiers={(DOMAIN, entry_id)},
             entry_type=DeviceEntryType.SERVICE,
         )
