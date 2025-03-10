@@ -615,7 +615,6 @@ class TraditionalAstrologicalZodiacSensor(SensorEntity):
         SIGN_TA_TAURUS,
         SIGN_TA_VIRGO,
     ]
-    _attr_translation_key = "sign"
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -626,6 +625,7 @@ class TraditionalAstrologicalZodiacSensor(SensorEntity):
         """Initialize Traditional Astrological Signs sensor."""
         self._attr_unique_id = "traditional_astrological_zodiac"
         self._attr_name = TA_NAME
+        self._attr_translation_key = "traditional_astrological_zodiac"
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -657,7 +657,6 @@ class JapanZenSignsSensor(SensorEntity):
         SIGN_JZ_EMPRESS,
         SIGN_JZ_MOON,
     ]
-    _attr_translation_key = "sign"
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -668,6 +667,7 @@ class JapanZenSignsSensor(SensorEntity):
         """Initialize Japan Zen Signs sensor."""
         self._attr_unique_id = "japan_zen_signs"
         self._attr_name = JZ_NAME
+        self._attr_translation_key = "japan_zen_signs"
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -699,7 +699,6 @@ class NativeAmericanSignsSensor(SensorEntity):
         SIGN_NA_OTTER,
         SIGN_NA_WOLF,
     ]
-    _attr_translation_key = "sign"
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -710,6 +709,7 @@ class NativeAmericanSignsSensor(SensorEntity):
         """Initialize Native American Signs sensor."""
         self._attr_unique_id = "native_american_signs"
         self._attr_name = NA_NAME
+        self._attr_translation_key = "native_american_signs"
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -742,7 +742,6 @@ class EgyptianSignsSensor(SensorEntity):
         SIGN_E_BASTET,
         SIGN_E_SEKHMET,
     ]
-    _attr_translation_key = "sign"
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -753,6 +752,7 @@ class EgyptianSignsSensor(SensorEntity):
         """Initialize Egyptian Signs sensor."""
         self._attr_unique_id = "egyptian_signs"
         self._attr_name = E_NAME
+        self._attr_translation_key = "egyptian_signs"
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
@@ -785,7 +785,6 @@ class CelticSignsSensor(SensorEntity):
         SIGN_C_ELDER,
         SIGN_C_BIRCH,
     ]
-    _attr_translation_key = "sign"
     _attr_device_info = DeviceInfo(
         name=DEFAULT_NAME,
         identifiers={(DOMAIN, entry_id)},
@@ -796,6 +795,7 @@ class CelticSignsSensor(SensorEntity):
         """Initialize Celtic Signs sensor."""
         self._attr_unique_id = "celtic_signs"
         self._attr_name = C_NAME
+        self._attr_translation_key = "celtic_signs"
 
     async def async_update(self) -> None:
         """Get the time and updates the state."""
