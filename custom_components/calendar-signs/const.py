@@ -1,10 +1,10 @@
 """Constants for Calendar Signs."""
 
 DOMAIN = "calendarsigns"
-DEFAULT_NAME = "CalendarSigns"
+DEFAULT_NAME = "Calendar Signs"
 
 # Traditional Astrological Zodiac
-TA_NAME = "TraditionalAstrologicalZodiac"
+TA_NAME = "Traditional Astrological Zodiac"
 SIGN_TA_ARIES = "aries"
 SIGN_TA_TAURUS = "taurus"
 SIGN_TA_GEMINI = "gemini"
@@ -49,7 +49,7 @@ ATTR_MODALITY = "modality"
 ATTR_STONE = "stone"
 
 # Japan Zen Signs
-JZ_NAME = "JapanZenSigns"
+JZ_NAME = "Japan Zen Signs"
 SIGN_JZ_TURTLE = "turtle"
 SIGN_JZ_CHERRY = "cherry"
 SIGN_JZ_SUN = "sun"
@@ -63,7 +63,7 @@ SIGN_JZ_EMPRESS = "empress"
 SIGN_JZ_MOON = "moon"
 
 # Native American Signs
-NA_NAME = "NativeAmericanSigns"
+NA_NAME = "Native American Signs"
 SIGN_NA_FALCON = "falcon"
 SIGN_NA_BEAVER = "beaver"
 SIGN_NA_DEER = "deer"
@@ -78,7 +78,7 @@ SIGN_NA_OTTER = "otter"
 SIGN_NA_WOLF = "wolf"
 
 # Egyptian Signs
-E_NAME = "EgyptianSigns"
+E_NAME = "Egyptian Signs"
 SIGN_E_NILE = "nile"
 SIGN_E_AMUNRA = "amunra"
 SIGN_E_MUT = "mut"
@@ -93,7 +93,7 @@ SIGN_E_BASTET = "bastet"
 SIGN_E_SEKHMET = "sekhmet"
 
 # Celtic Signs
-C_NAME = "CelticSigns"
+C_NAME = "Celtic Signs"
 SIGN_C_ROWAN = "rowan"
 SIGN_C_ASH = "ash"
 SIGN_C_ALDER = "alder"
