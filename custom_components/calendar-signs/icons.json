@@ -19,17 +19,17 @@
         "state_attributes": {
           "element": {
             "state": {
-              "air": "mdi:alpha-a",
-              "earth": "mdi:alpha-e",
-              "fire": "mdi:alpha-f",
-              "water": "mdi:alpha-w"
+              "air": "mdi:zodiac-air",
+              "earth": "mdi:zodiac-earth",
+              "fire": "mdi:zodiac-fire",
+              "water": "mdi:zodiac-water"
             }
           },
           "modality": {
             "state": {
-              "cardinal": "mdi:alpha-c",
-              "fixed": "mdi:alpha-f",
-              "mutable": "mdi:alpha-m"
+              "cardinal": "mdi:zodiac-cardinal",
+              "fixed": "mdi:zodiac-fixed",
+              "mutable": "mdi:zodiac-mutable"
             }
           }
         }
